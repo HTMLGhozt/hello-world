@@ -3,7 +3,8 @@
 ## Generalized Goals
 
 ### Client/server communication
-- [ ] Use flatbuffers / GraphQL
+- [ ] Use flatbuffers / GraphQL 
+	- [ ] Stretch: Rust
 
 ### Data Storage
 - [ ] Use a Graph Database for storing the text
@@ -22,10 +23,19 @@
 - [ ] Admin panel 
 	- [ ] should have the ability to change text
 	- [ ] create new users
+	- [ ] settings page
+		- [ ] change password
+		- [ ] phone number
+		- [ ] email
+		- [ ] disconnect logged-in webapps
 
 ### Best practices
 - [ ] Testing
+	- [ ] Unit
+	- [ ] E2E
 - [ ] CI/CD
+- [ ] linting
+- [ ] codecoverage
 
 ### Ethos
 - [ ] Don't be adverse to utilizing common packages to apply industry design patterns
