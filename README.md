@@ -3,8 +3,10 @@
 ## Generalized Goals
 
 ### Client/server communication
-- [ ] Use flatbuffers / GraphQL 
+- [ ] Use flatbuffers
 	- [ ] Stretch: Rust
+- [ ] Use GraphQL
+- [ ] Inter-server communication via gRPC
 
 ### Data Storage
 - [ ] Use a Graph Database for storing the text
@@ -20,9 +22,10 @@
 	- [ ] bio auth via phone app?
 	- [ ] GitHub, Google and LinkedIn Auth?
 	- [ ] 2fa
-- [ ] Admin panel 
-	- [ ] should have the ability to change text
-	- [ ] create new users
+- [ ] Account panel 
+	- [ ] should have the ability submit new text
+	- [ ] create new users (admin)
+	- [ ] Change or approve text submissions (admin)
 	- [ ] settings page
 		- [ ] change password
 		- [ ] phone number

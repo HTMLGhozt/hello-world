@@ -1,0 +1,22 @@
+{
+  "name": "@hello-world/web",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev:start": "parcel ./src/index.html -p 3000 --log-level 4 --no-source-maps"
+  },
+  "dependencies": {
+    "@parcel/transformer-babel": "^2.0.0-alpha.3",
+    "svelte": "^3.23.2"
+  },
+  "devDependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.2",
+    "@pyoner/svelte-types": "^3.4.4-2",
+    "@tailwindcss/ui": "^0.3.0",
+    "parcel": "^2.0.0-alpha.3.2",
+    "parcel-transformer-svelte": "./packages/svelte-parcel-transformer",
+    "svelte-preprocess": "^3.7.4",
+    "tailwindcss": "^1.4.6"
+  }
+}

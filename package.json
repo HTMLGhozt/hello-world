@@ -1,7 +1,6 @@
 {
-  "name": "hello-world",
+  "name": "@hello-world/root",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "private": true,
   "workspaces": [
