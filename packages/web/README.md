@@ -1,7 +1,10 @@
 # Enterprise "Hello, World!" Website
 
 ## TODO::Thomas 070420
-- [ ] Switch Parcel for Webpack
+- [x] Switch Parcel for Webpack
+- [ ] Move configs into `./config`
+- [ ] Separate `webpack.config.js` into dev and prod files
+- [ ] Remove as many relative references as possible from configs
 
 ## Goals
 - [ ] Display text in database
