@@ -1,5 +1,8 @@
 # Enterprise "Hello, World!" Website
 
+## TODO::Thomas 070420
+- [ ] Switch Parcel for Webpack
+
 ## Goals
 - [ ] Display text in database
 - [ ] Flatbuffers
