@@ -7,10 +7,10 @@
     "dev:start": "webpack-dev-server "
   },
   "dependencies": {
-    "svelte": "^3.23.3"
+    "svelte": "^3.23.2"
   },
   "peerDependencies": {
-		"svelte": "^3.22.3"
+		"svelte": "^3.22.2"
 	},
   "devDependencies": {
     "@pyoner/svelte-types": "^3.4.4-2",
