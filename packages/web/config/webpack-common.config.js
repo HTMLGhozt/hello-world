@@ -19,7 +19,30 @@ module.exports = {
 		rules: [
 			{
 				test: /\.ts$/,
-				use: [{ loader: 'babel-loader' }],
+				exclude: /node_modules/,
+				use: [{
+					loader: 'ts-loader',
+				}],
+			},
+			{
+				test: /\.svelte$/,
+				use: [
+					{
+						loader: 'babel-loader',
+					},
+					{
+						loader: 'svelte-loader',
+						options: {
+							emitCss: false,
+							hotReload: true,
+							preprocess: require('svelte-preprocess')({
+								typescript: {
+									transpileOnly: true,
+								},
+							}),
+						},
+					},
+				]
 			},
 			{
 				test: /\.css$/,

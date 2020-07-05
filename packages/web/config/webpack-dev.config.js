@@ -8,30 +8,6 @@ const webpackConfig = merge(common, {
 		historyApiFallback: true,
 		port: 3000,
 	},
-	module: {
-		rules: [
-			{
-				test: /\.svelte$/,
-				use: [
-					{
-						loader: 'babel-loader',
-					},
-					{
-						loader: 'svelte-loader',
-						options: {
-							emitCss: false,
-							hotReload: true,
-							preprocess: require('svelte-preprocess')({
-								typescript: {
-									transpileOnly: true,
-								},
-							}),
-						},
-					},
-				],
-			},
-		],
-	},
 	mode: 'development',
 	plugins: [new HtmlWebpackPlugin()],
 	devtool: 'source-map',
