@@ -7,6 +7,10 @@
 - [x] Separate `webpack.config.js` into dev and prod files
 - [x] Remove as many relative references as possible from configs
 
+## TODO::Thomas 070520
+- [x] Add page routing
+- [ ] Add login portal
+
 ## Goals
 - [ ] Display text in database
 - [ ] Flatbuffers
