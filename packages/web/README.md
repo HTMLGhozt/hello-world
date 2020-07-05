@@ -2,9 +2,10 @@
 
 ## TODO::Thomas 070420
 - [x] Switch Parcel for Webpack
-- [ ] Move configs into `./config`
-- [ ] Separate `webpack.config.js` into dev and prod files
-- [ ] Remove as many relative references as possible from configs
+- [x] Move configs into `./config`
+- [x] Upgrade to Webpack 5
+- [x] Separate `webpack.config.js` into dev and prod files
+- [x] Remove as many relative references as possible from configs
 
 ## Goals
 - [ ] Display text in database

@@ -1,27 +1,25 @@
 {
-  "name": "@hello-world/web",
-  "version": "1.0.0",
-  "main": "index.html",
-  "license": "MIT",
-  "scripts": {
-    "dev:start": "webpack-dev-server "
-  },
-  "dependencies": {
-    "svelte": "^3.23.2"
-  },
-  "peerDependencies": {
+	"name": "@hello-world/web",
+	"version": "1.0.0",
+	"main": "index.html",
+	"license": "MIT",
+	"scripts": {
+		"dev:start": "webpack-dev-server --config ./config/webpack-dev.config.js"
+	},
+	"dependencies": {
+		"svelte": "^3.23.2"
+	},
+	"peerDependencies": {
 		"svelte": "^3.22.2"
 	},
-  "devDependencies": {
-    "@pyoner/svelte-types": "^3.4.4-2",
-    "@tailwindcss/ui": "^0.3.0",
-    "svelte-preprocess": "^3.7.4",
-    "tailwindcss": "^1.4.6",
-    "@babel/core": "^7.9.6",
+	"devDependencies": {
+		"@babel/core": "^7.9.6",
 		"@babel/polyfill": "^7.8.7",
 		"@babel/preset-env": "^7.9.6",
 		"@babel/preset-typescript": "^7.9.0",
 		"@fullhuman/postcss-purgecss": "^2.2.0",
+		"@pyoner/svelte-types": "^3.4.4-2",
+		"@tailwindcss/ui": "^0.3.0",
 		"autoprefixer": "^9.7.4",
 		"babel-loader": "^8.1.0",
 		"css-loader": "^3.5.3",
@@ -31,9 +29,12 @@
 		"postcss-loader": "^3.0.0",
 		"style-loader": "^1.2.1",
 		"svelte-loader": "^2.13.6",
+		"svelte-preprocess": "^3.7.4",
+		"tailwindcss": "^1.4.6",
 		"typescript": "^3.7.5",
-		"webpack": "^4.43.0",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.11.0"
-  }
+		"webpack": "^5.0.0-beta.20",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0",
+		"webpack-merge": "^5"
+	}
 }
